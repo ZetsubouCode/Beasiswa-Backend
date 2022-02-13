@@ -2,7 +2,7 @@
     $title = $_POST["title"];
     $message = $_POST["message"];
     $token = $_POST["token"];
-    $api_key="AAAAa246mL4:APA91bFW7yeczPiVZirlgQMlWpugWcb_xAli41idJuJ9ZtqEuBg-2_y6qOroczlfWZ6UWX5YO0_9Eptrp6QXL1DYEwX-FZde7HK69QRvrEcpq-KfEF4z2WubNVCa7gyRajQsMm69pWoq";
+    $api_key="<API_KEY>";
     $url="https://fcm.googleapis.com/fcm/send";
     $data=array(
     'title'=>$title,
